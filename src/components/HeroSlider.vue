@@ -434,6 +434,7 @@ onMounted(() => {
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: left 0.7s ease;
+  overflow: hidden;
 
   @media (max-width: 768px) {
     border-top-right-radius: 7.8125vw;
@@ -538,8 +539,8 @@ onMounted(() => {
   }
 
   @media (max-width: 430px) {
-    padding-top: 55vh;
-    transform: translateY(-50%);
+    /* padding-top: 55vh;
+    transform: translateY(-50%); */
   }
 
   p {
@@ -680,7 +681,9 @@ onMounted(() => {
   }
 
   @media (max-width: 430px) {
-    top: 45vh;
+    /* top: 42vh; */
+    top: unset;
+    bottom: 2vh;
     right: 49vw;
     width: 100vw;
   }
@@ -709,8 +712,10 @@ onMounted(() => {
 
   @media (max-width: 430px) {
     /* width: calc(80px + 2vh); */
-    width: 100px;
-    top: 51%;
+    width: 120px;
+    /* top: 51%; */
+    top: 37vh;
+    transform: translate(0);
   }
 
   svg {
