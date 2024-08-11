@@ -661,6 +661,11 @@ onMounted(() => {
     display: none;
   }
 
+  @media (max-width: 414px) {
+    right: 53%;
+    width: 100vw;
+  }
+
   ellipse + g {
     @media (max-width: 768px) {
       transform: rotateX(40deg) translate(-145px, 30px) scale(1.25);
