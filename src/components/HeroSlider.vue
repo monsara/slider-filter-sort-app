@@ -400,6 +400,10 @@ onMounted(() => {
 </template>
 
 <style scoped lang="scss">
+:root {
+  --app-height: 100%;
+}
+
 .slider {
   position: relative;
   display: flex;
@@ -408,6 +412,7 @@ onMounted(() => {
 
   @media (max-width: 768px) {
     height: 100vh;
+    height: var(--app-height);
   }
 
   @media (max-width: 768px) and (orientation: landscape) {
