@@ -155,14 +155,14 @@ onMounted(fetchMovies)
 .sort-filters {
   margin-bottom: 60px;
 
-  @media (max-width: 414px) {
+  @media (max-width: 430px) {
     margin-bottom: 40px;
   }
 
   .form-check {
     &:nth-child(2),
     &:nth-child(3) {
-      @media (max-width: 414px) {
+      @media (max-width: 430px) {
         display: none;
       }
     }

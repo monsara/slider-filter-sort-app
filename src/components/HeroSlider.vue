@@ -413,6 +413,7 @@ onMounted(() => {
   @media (max-width: 768px) {
     height: 100vh;
     height: var(--app-height);
+    transition: height 0.3s ease-in-out;
   }
 
   @media (max-width: 768px) and (orientation: landscape) {
@@ -536,7 +537,7 @@ onMounted(() => {
     padding-top: 10.4492vh;
   }
 
-  @media (max-width: 414px) {
+  @media (max-width: 430px) {
     padding-top: 55vh;
     transform: translateY(-50%);
   }
@@ -566,7 +567,7 @@ onMounted(() => {
       line-height: 2.92969vw;
     }
 
-    @media (max-width: 414px) {
+    @media (max-width: 430px) {
       width: 45.204vw;
       margin-top: 7px;
       margin-left: 33.2396vw;
@@ -591,7 +592,7 @@ onMounted(() => {
       font-size: 5.20834vw;
     }
 
-    @media (max-width: 414px) {
+    @media (max-width: 430px) {
       font-size: 6.5vw;
     }
 
@@ -678,7 +679,7 @@ onMounted(() => {
     display: none;
   }
 
-  @media (max-width: 414px) {
+  @media (max-width: 430px) {
     right: 53%;
     width: 100vw;
   }
@@ -706,7 +707,7 @@ onMounted(() => {
     min-width: calc(80px + 1vw);
   }
 
-  @media (max-width: 414px) {
+  @media (max-width: 430px) {
     top: 51%;
   }
 
