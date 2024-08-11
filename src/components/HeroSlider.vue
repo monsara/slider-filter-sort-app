@@ -560,6 +560,14 @@ onMounted(() => {
       font-size: 1.95312vw;
       line-height: 2.92969vw;
     }
+
+    @media (max-width: 414px) {
+      width: 45.204vw;
+      margin-top: 7px;
+      margin-left: 33.2396vw;
+      font-size: 2.95312vw;
+      line-height: 3.5vw;
+    }
   }
 }
 
@@ -576,6 +584,10 @@ onMounted(() => {
 
     @media (max-width: 768px) {
       font-size: 5.20834vw;
+    }
+
+    @media (max-width: 414px) {
+      font-size: 6.5vw;
     }
 
     &:nth-child(1) {
@@ -687,6 +699,10 @@ onMounted(() => {
   @media (max-width: 768px) {
     width: 17.188vw;
     min-width: calc(80px + 1vw);
+  }
+
+  @media (max-width: 375px) {
+    top: 51%;
   }
 
   svg {
