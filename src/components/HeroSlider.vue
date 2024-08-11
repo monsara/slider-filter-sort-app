@@ -701,7 +701,7 @@ onMounted(() => {
     min-width: calc(80px + 1vw);
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     top: 51%;
   }
 

@@ -225,7 +225,6 @@ const clearError = (field) => {
                 :class="{ 'is-invalid': errors.userMessage }"
                 id="texMessage"
                 rows="3"
-                placeholder="Textarea"
                 v-model="userMessage"
                 @focus="clearError('userMessage')"
               ></textarea>
@@ -356,7 +355,7 @@ section {
   padding-top: 60px;
   padding-bottom: 80px;
 
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -377,7 +376,7 @@ section {
   justify-content: space-between;
   gap: 50px;
 
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     gap: 40px;
   }
 }
@@ -396,7 +395,7 @@ section {
   font-size: 18px;
   text-transform: uppercase;
 
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     /* font-size: 14px; */
   }
 
@@ -412,7 +411,7 @@ section {
 .form-group {
   margin-bottom: 15px;
 
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     margin-bottom: 20px;
   }
 
@@ -443,8 +442,8 @@ section {
   border: 1px solid #000;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
-  @media (max-width: 375px) {
-    padding: 13px 12px;
+  @media (max-width: 414px) {
+    padding: 11px 12px;
     font-size: 14px;
   }
 
@@ -508,7 +507,7 @@ section {
   align-items: center;
   position: relative;
 
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     margin-bottom: 10px;
   }
 }
@@ -578,9 +577,9 @@ section {
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
   }
 
-  @media (max-width: 375px) {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  @media (max-width: 414px) {
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-top: 20px !important;
   }
 }
