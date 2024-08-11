@@ -680,7 +680,8 @@ onMounted(() => {
   }
 
   @media (max-width: 430px) {
-    right: 53%;
+    top: 45vh;
+    right: 49vw;
     width: 100vw;
   }
 
@@ -703,11 +704,12 @@ onMounted(() => {
   cursor: pointer;
 
   @media (max-width: 768px) {
-    width: 17.188vw;
-    min-width: calc(80px + 1vw);
+    width: 15.626vw;
   }
 
   @media (max-width: 430px) {
+    /* width: calc(80px + 2vh); */
+    width: 100px;
     top: 51%;
   }
 
