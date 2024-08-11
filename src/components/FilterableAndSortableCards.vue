@@ -154,6 +154,11 @@ onMounted(fetchMovies)
 <style scoped lang="scss">
 .sort-filters {
   margin-bottom: 60px;
+
+  @media (max-width: 375px) {
+    display: none;
+    margin-bottom: 40px;
+  }
 }
 
 .container {

@@ -343,9 +343,7 @@ const clearError = (field) => {
               </transition>
             </div>
 
-            <button type="submit" class="btn btn-primary mt-auto">
-              відправити
-            </button>
+            <button type="submit" class="btn mt-auto">відправити</button>
           </div>
         </div>
       </form>
@@ -357,6 +355,11 @@ const clearError = (field) => {
 section {
   padding-top: 60px;
   padding-bottom: 80px;
+
+  @media (max-width: 375px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 .container {
@@ -373,6 +376,10 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 50px;
+
+  @media (max-width: 375px) {
+    gap: 40px;
+  }
 }
 
 .form-col {
@@ -384,9 +391,14 @@ section {
 }
 
 .form-title {
-  margin-bottom: 50px;
-  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 18px;
   text-transform: uppercase;
+
+  @media (max-width: 375px) {
+    /* font-size: 14px; */
+  }
 
   &.mt {
     margin-top: 28px;
@@ -399,6 +411,10 @@ section {
 
 .form-group {
   margin-bottom: 15px;
+
+  @media (max-width: 375px) {
+    margin-bottom: 20px;
+  }
 
   textarea {
     min-height: 85px;
@@ -426,6 +442,11 @@ section {
   background-clip: padding-box;
   border: 1px solid #000;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  @media (max-width: 375px) {
+    padding: 13px 12px;
+    font-size: 14px;
+  }
 
   &.is-invalid {
     border-color: #ff0000;
@@ -486,6 +507,10 @@ section {
   display: flex;
   align-items: center;
   position: relative;
+
+  @media (max-width: 375px) {
+    margin-bottom: 10px;
+  }
 }
 
 .form-check-input {
@@ -551,6 +576,12 @@ section {
   &:focus,
   &.focus {
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+
+  @media (max-width: 375px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px !important;
   }
 }
 
